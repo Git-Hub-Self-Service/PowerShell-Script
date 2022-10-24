@@ -9,4 +9,4 @@ jobs:
         - uses: actions/checkout@v2
         - name: Script
           run: PowerShell-Script/Github-Create-Repository.ps1
-          shell: powershell
+          shell: pwsh
