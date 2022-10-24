@@ -8,7 +8,7 @@ PARAM
 # authentication header
 
 $username = "Username";
-$token = "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";
+$token = "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";
 $base64AuthInfo = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(("{0}:{1}" -f $username,$token)));
 $authHeader = @{"Authorization"="Basic $base64AuthInfo"};
 
