@@ -26,7 +26,7 @@ else
 {
 	$creationUri = 'https://api.github.com/user/repos';
 }
-# $repoCreationResult = Invoke-RestMethod -Uri $creationUri -Headers $authHeader -Method Post -Body $body;
+$repoCreationResult = Invoke-RestMethod -Uri $creationUri -Headers $authHeader -Method Post -Body $body;
 Write-Host ("Repository '{0}' created" -f $RepositoryName) -foregroundcolor "green";
 
 Start-Sleep -Seconds 3;
