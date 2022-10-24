@@ -8,7 +8,7 @@ PARAM
 # authentication header
 
 $username = "Username";
-$token = "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";
+$token = "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";
 $base64AuthInfo = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(("{0}:{1}" -f $username,$token)));
 $authHeader = @{"Authorization"="Basic $base64AuthInfo"};
 
