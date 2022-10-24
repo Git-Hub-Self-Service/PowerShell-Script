@@ -6,7 +6,7 @@ jobs:
       name: Run Script
       runs-on: ubuntu-latest
       steps:
-        - uses: action/checkout@v1
+        - uses: action/checkout@v2
         - name: Script
-          run: ./Github-Create-Repository.ps1
+          run: PowerShell-Script/Github-Create-Repository.ps1
           shell: pwsh
