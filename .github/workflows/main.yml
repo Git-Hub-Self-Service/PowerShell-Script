@@ -1,4 +1,4 @@
-name: CI
+name: CI - Powershell Script
 on: [push]
 
 jobs:
@@ -9,4 +9,4 @@ jobs:
         - uses: action/checkout@v2
         - name: Script
           run: PowerShell-Script/Github-Create-Repository.ps1
-          shell: pwsh
+          shell: powershell
