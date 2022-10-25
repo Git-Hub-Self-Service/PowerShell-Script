@@ -1,8 +1,8 @@
 # Install PSGallery
-Set-PSrepository PSGallery
+Set-PSRepository -Name 'PSGallery' -InstallationPolicy Trusted
 
 # Install ImportExcel package
-Install-Module -Name ImportExcel 3>$null
+Install-Module -Name ImportExcel
 
 # List Module installed
 Get-InstalledModule
