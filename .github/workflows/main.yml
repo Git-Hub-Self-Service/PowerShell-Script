@@ -8,5 +8,6 @@ jobs:
       steps:
         - uses: actions/checkout@v1
         - name: Script
-          run: ./Github-Create-Repository.ps1
+      #    run: ./Github-Create-Repository.ps1
+          run: ./Installmodule.ps1
           shell: pwsh
